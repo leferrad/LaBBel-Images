@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
 # Distribution / packaging
 .Python
 env/
@@ -67,7 +77,8 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
+# IPython Notebook stuff
+*.egg-info
 .ipynb_checkpoints
 
 # pyenv
@@ -87,6 +98,10 @@ celerybeat-schedule
 venv/
 ENV/
 
+# IDE's stuff
+*.layout
+.idea
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -99,3 +114,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Latex Stuff
+*.log
+*.aux
+*.out
+*.gz
+
